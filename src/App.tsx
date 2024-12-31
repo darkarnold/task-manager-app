@@ -1,11 +1,12 @@
 import "./App.css";
-import { Button } from "./components/ui/button";
+
+import LoginPage from "@/components/pages/loginPage";
 
 function App() {
   return (
-    <div className="flex items-center justify-center h-screen">
-      <Button>Click me</Button>
-    </div>
+    <>
+      <LoginPage />
+    </>
   );
 }
 
